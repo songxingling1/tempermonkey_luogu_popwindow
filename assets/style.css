@@ -1,0 +1,20 @@
+.top-bar #luogu_popwindow_setting {
+    margin-right: 8pt;
+}
+
+#luogu_popwindow_setting:not(.top-bar *) {
+    margin-right: 5pt;
+}
+#luogu_popwindow_setting:not(.top-bar *,.link-container + .user-nav *) {
+    color: inherit;
+}
+.top-bar .user-nav > #luogu_popwindow_setting:hover {
+    background-color: rgba(0, 0, 0, .05);
+    padding: 3pt 3pt 3pt 3pt;
+    margin-right: 5pt;
+    border-radius: 3px
+}
+
+#luogu_popwindow_setting:hover > svg > path {
+    fill: #0366d6;
+}
